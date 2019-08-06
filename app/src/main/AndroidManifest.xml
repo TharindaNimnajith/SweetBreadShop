@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.sweetbreadshop.ViewFoodActivity"></activity>
-        <activity android:name="com.example.sweetbreadshop.CRUDFoodActivity" />
-        <activity android:name="com.example.sweetbreadshop.FoodListActivity" />
-        <activity android:name="com.example.sweetbreadshop.AddFoodItemActivity" />
-        <activity android:name="com.example.sweetbreadshop.MenuManagementActivity">
+        <activity android:name=".CustomerProfileActivity"></activity>
+        <activity android:name=".ViewFoodActivity" />
+        <activity android:name=".CRUDFoodActivity" />
+        <activity android:name=".FoodListActivity" />
+        <activity android:name=".AddFoodItemActivity" />
+        <activity android:name=".MenuManagementActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
